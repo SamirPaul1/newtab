@@ -13,6 +13,7 @@ import * as zh_CN from '../translations/zh_CN.json';
 import * as id_ID from '../translations/id_ID.json';
 import * as tr_TR from '../translations/tr_TR.json';
 import * as pt_BR from '../translations/pt_BR.json';
+import * as bn from '../translations/bn.json';
 
 /**
  * Initialise the i18n object.
@@ -35,23 +36,25 @@ export function initTranslations(locale) {
     id_ID,
     tr_TR,
     pt_BR,
+    bn,
   });
 
   return i18n;
 }
 
 export const translations = {
-    de_DE,
-    en_GB,
-    en_US,
-    es,
-    es_419,
-    fr,
-    nl,
-    no,
-    ru,
-    zh_CN,
-    id_ID,
-    tr_TR,
-    pt_BR,
-}
+  de_DE,
+  en_GB,
+  en_US,
+  es,
+  es_419,
+  fr,
+  nl,
+  no,
+  ru,
+  zh_CN,
+  id_ID,
+  tr_TR,
+  pt_BR,
+  bn,
+};

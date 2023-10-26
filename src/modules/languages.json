@@ -1,5 +1,13 @@
 [
   {
+    "name": "Bahasa Indonesia",
+    "value": "id_ID"
+  },
+  {
+    "name": "বাংলা",
+    "value": "bn"
+  },
+  {
     "name": "Deutsch",
     "value": "de_DE"
   },

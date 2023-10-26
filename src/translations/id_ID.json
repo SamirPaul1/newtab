@@ -13,20 +13,19 @@
     "background": {
       "credit": "Foto oleh",
       "unsplash": "di Unsplash",
-      "pexels": "di Pexels",
       "information": "Informasi",
       "download": "Unduh",
-      "downloads": "Downloads",
-      "views": "Views",
-      "likes": "Likes",
-      "location": "Location",
-      "camera": "Camera",
-      "resolution": "Resolution",
-      "source": "Source",
-      "category": "Category",
-      "exclude": "Don't show again",
-      "exclude_confirm": "Are you sure you don't want to see this image again?\nNote: if you don't like \"{category}\" images, you can deselect the category in the background source settings.",
-      "confirm": "Confirm"
+      "downloads": "Unduhan",
+      "views": "Tayangan",
+      "likes": "Suka",
+      "location": "Lokasi",
+      "camera": "Kamera",
+      "resolution": "Resolusi",
+      "source": "Sumber",
+      "category": "Kategori",
+      "exclude": "Jangan tampilkan lagi",
+      "exclude_confirm": "Apakah Anda yakin tidak ingin melihat gambar ini lagi?\nCatatan: jika Anda tidak menyukai gambar \"{category}\", Anda dapat membatalkan pilihan kategori di setelan sumber latar belakang.",
+      "confirm": "Konfirmasi"
     },
     "search": "Cari",
     "quicklinks": {
@@ -44,15 +43,15 @@
     "weather": {
       "not_found": "Tidak Ditemukan",
       "meters": "{amount} meter",
-      "extra_information": "Extra Information",
-      "feels_like": "Feels like {amount}"
+      "extra_information": "Informasi Tambahan",
+      "feels_like": "Terasa seperti {jumlah}"
     },
     "quote": {
-      "link_tooltip": "Open on Wikipedia",
-      "share": "Share",
-      "copy": "Copy",
-      "favourite": "Favourite",
-      "unfavourite": "Unfavourite"
+      "link_tooltip": "Buka di Wikipedia",
+      "share": "Bagikan",
+      "copy": "Salin",
+      "favourite": "Favorit",
+      "unfavourite": "Copot favorit"
     },
     "navbar": {
       "tooltips": {
@@ -63,10 +62,10 @@
         "placeholder": "Ketik di sini"
       },
       "todo": {
-        "title": "Todo",
-        "pin": "Pin",
-        "add": "Add",
-        "no_todos": "No Todos"
+        "title": "Tugas",
+        "pin": "Sematkan",
+        "add": "Tambah",
+        "no_todos": "Tidak ada Tugas"
       }
     }
   },
@@ -77,30 +76,30 @@
       "file_upload_error": "Ukuran berkas lebih dari 2MB",
       "navbar": {
         "settings": "Pengaturan",
-        "addons": "Add-ons",
+        "addons": "Pengaya",
         "marketplace": "Marketplace"
       },
       "error_boundary": {
         "title": "Galat",
         "message": "Gagal memuat komponen Mue",
-        "report_error": "Send Error Report",
-        "sent": "Sent!",
+        "report_error": "Kirim Laporan Galat",
+        "sent": "Terkirim!",
         "refresh": "Muat Ulang"
       },
       "settings": {
         "enabled": "Aktif",
-        "open_knowledgebase": "Open Knowledgebase",
-        "additional_settings": "Additional Settings",
+        "open_knowledgebase": "Buka Basis Pengetahuan",
+        "additional_settings": "Pengaturan Tambahan",
         "reminder": {
           "title": "PERHATIAN",
           "message": "Agar semua perubahan dapat diterapkan, harap muat ulang halaman ini"
         },
         "sections": {
           "header": {
-            "more_info": "More info",
-            "report_issue": "Report Issue",
-            "enabled": "Choose whether or not to show this widget",
-            "size": "Slider to control how large the widget is"
+            "more_info": "Info lebih lanjut",
+            "report_issue": "Laporkan Masalah",
+            "enabled": "Pilih apakah akan menampilkan widget ini atau tidak",
+            "size": "Slider untuk mengontrol seberapa besar widget tersebut"
           },
           "time": {
             "title": "Waktu",
@@ -109,7 +108,7 @@
             "type_subtitle": "Choose whether to display the time in digital format, analogue format, or a percentage completion of the day",
             "digital": {
               "title": "Digital",
-              "subtitle": "Change how the digital clock looks",
+              "subtitle": "Mengubah tampilan jam digital",
               "seconds": "Detik",
               "twentyfourhour": "24",
               "twelvehour": "12 (AM/PM)",
@@ -117,19 +116,19 @@
             },
             "analogue": {
               "title": "Analog",
-              "subtitle": "Change how the analogue clock looks",
+              "subtitle": "Mengubah tampilan jam analog",
               "second_hand": "Jarum Detik",
               "minute_hand": "Jarum Menit",
               "hour_hand": "Jarum Jam",
               "hour_marks": "Penanda Jam",
               "minute_marks": "Penanda Menit",
-              "round_clock": "Rounded background"
+              "round_clock": "Latar belakang berbentuk bulat"
             },
             "percentage_complete": "Persentase",
             "vertical_clock": {
-              "title": "Vertical Clock",
-              "change_hour_colour": "Change hour text colour",
-              "change_minute_colour": "Change minute text colour"
+              "title": "Jam Vertikal",
+              "change_hour_colour": "Ubah warna teks jam",
+              "change_minute_colour": "Ubah warna teks menit"
             }
           },
           "date": {
@@ -140,12 +139,12 @@
             "type": {
               "short": "Ringkas",
               "long": "Lengkap",
-              "subtitle": "Whether to display the date in long form or short form"
+              "subtitle": "Apakah akan menampilkan tanggal dalam bentuk panjang atau bentuk pendek"
             },
-            "type_settings": "Display settings and format for the selected date type",
+            "type_settings": "Tampilkan setelan dan format untuk jenis tanggal yang dipilih",
             "short_date": "Tanggal Ringkas",
             "short_format": "Format Ringkas",
-            "long_format": "Long format",
+            "long_format": "Format panjang",
             "short_separator": {
               "title": "Pemisah",
               "dots": "Titik",
@@ -156,15 +155,15 @@
           },
           "quote": {
             "title": "Kutipan",
-            "additional": "Other settings to customise the style of the quote widget",
+            "additional": "Pengaturan lain untuk menyesuaikan gaya widget kutipan",
             "author_link": "Pranala penulis",
             "custom": "Kutipan kustom",
-            "custom_subtitle": "Set your own custom quotes",
-            "no_quotes": "No quotes",
-            "author": "Author",
-            "custom_buttons": "Buttons",
+            "custom_subtitle": "Tetapkan kutipan khusus Anda sendiri",
+            "no_quotes": "Tidak ada kutipan",
+            "author": "Kreator",
+            "custom_buttons": "Tombol",
             "custom_author": "Penulis kustom",
-            "author_img": "Show author image",
+            "author_img": "Tampilkan pemilik gambar",
             "add": "Tambahkan kutipan",
             "source_subtitle": "Choose where to get quotes from",
             "buttons": {
@@ -568,57 +567,9 @@
         },
         "create": {
           "title": "Buat",
-          "example": "Example",
-          "other_title": "Buat Add-on",
-          "create_type": "Create {type} Pack",
-          "types": {
-            "settings": "Preset Settings Pack",
-            "photos": "Photo Pack",
-            "quotes": "Quotes Pack"
-          },
-          "descriptions": {
-            "settings": "Collection of settings to customise Mue.",
-            "photos": "Collection of photos relating to a topic.",
-            "quotes": "Collection of quotes relating to a topic."
-          },
-          "information": "Information",
-          "information_subtitle": "For example: 1.2.3 (major update, minor update, patch update)",
-          "import_custom": "Import from custom settings.",
-          "publishing": {
-            "title": "Next step, Publishing...",
-            "subtitle": "Visit the Mue Knowledgebase on information on how to publish your newly created addon.",
-            "button": "Learn more"
-          },
-          "metadata": {
-            "name": "Nama",
-            "icon_url": "URL Ikon",
-            "screenshot_url": "URL Screenshot",
-            "description": "Deskripsi",
-            "example": "Download example"
-          },
-          "finish": {
-            "title": "Selesai",
-            "download": "Unduh Add-on"
-          },
-          "settings": {
-            "current": "Impor",
-            "json": "Unggah JSON"
-          },
-          "photos": {
-            "title": "Tambahkan foto"
-          },
-          "quotes": {
-            "title": "Tambahkan Kutipan",
-            "api": {
-              "title": "API",
-              "url": "URL Kutipan",
-              "name": "Nama Kutipan",
-              "author": "Penulis kutipan"
-            },
-            "local": {
-              "title": "Lokal"
-            }
-          }
+          "moved_title": "Create add-on has moved!",
+          "moved_description": "Following the 7.1 update, the creation of addons has now moved to the web UI",
+          "moved_button": "Get Started"
         }
       }
     },
